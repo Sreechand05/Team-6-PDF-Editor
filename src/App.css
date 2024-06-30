@@ -1,0 +1,22 @@
+.dropzone {
+  display: flex;
+  border: 2px dashed #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+  color: #cccccc;
+  width: 70%;
+  height: 300px;
+  justify-content: center;
+  margin: auto;
+}
+
+button {
+  margin: 10px;
+  color: rgb(234, 19, 83);
+}
+
+h1 {
+  color: rgb(241, 17, 17);
+  text-align: center;
+}

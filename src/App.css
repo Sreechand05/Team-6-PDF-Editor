@@ -13,39 +13,163 @@
   background-color: white;
 }
 
-button {
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.topic {
   margin: 20px;
-  color: rgb(234, 19, 83);
+  width: 20%;
+}
+
+span {
+  margin-left: 10px;
+  color:deeppink;
+  position: relative;
+  top: 3px;
+}
+
+button {
+  margin-bottom: 30px;
+  padding: 0;
+  border: 0;
+  color: white;
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  display: inline-flex;
+  align-items:center;
+  justify-content: center;
+  backface-visibility: hidden;
+  border-color: transparent;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position:top;
+  border-radius: 10px;
 }
 
 .button {
   width: 50%;
   float: left;
-  padding-left: 20px;
   box-sizing: border-box;
-  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+  padding-top: 30px;
 }
 
-.view {
-  box-sizing: border-box;
-  background-color: white;
-  margin-left: 30px;
-  background-color:inherit;
+/*#merge {
+  background-image: url(./Images/merge.png);
 }
 
-.PDF {
-  margin-top: 30px;
+#split {
+  background-image: url(./Images/split.jpg);
+}
+
+#delete {
+  background-image: url(../public/pdf.png);
+}
+
+#txt {
+  background-image: url(../public/pdf.png);
+}
+
+#img {
+  background-image: url(../public/pdf.png);
+}*/
+
+.body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgba(230, 244, 190, 0.247);
+}
+
+.pdf-viewer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 20px;
 }
 
 h1 {
   color: rgb(241, 17, 17);
 }
 
-.nav {
+.navb {
   display: flex;
   height:70px;
   background-color: rgb(236, 218, 13);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  /*position: absolute;*/
+  width: 100%;
 }
+
+.navb .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.navb .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navb .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.navb .nav-links li {
+  margin-left: 20px;
+}
+
+.content-container {
+  display: flex;
+  height: calc(100vh - 80px); /* Adjust based on navbar height */
+  top: 70px;
+}
+
+.dropdown {
+  top:15px;
+  right: 10px;
+}
+
+.btn-success {
+  background-color: inherit;
+  border-color: rgb(236, 218, 13);
+  
+}
+
+.btn.show {
+  background-color:inherit;
+  border-color: rgb(236, 218, 13);
+}
+
+.btn:hover {
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn:focus {
+  background-color:inherit;
+  
+}
+

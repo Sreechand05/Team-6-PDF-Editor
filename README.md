@@ -58,8 +58,8 @@ A web application for editing PDF files using React.js. This tool allows users t
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## Acknowledgments
 
-Thanks to the developers of pdf-lib and pdfjs-dist for their amazing libraries.
+Thanks to the developers of [pdf-lib](https://pdf-lib.js.org/) and [pdfjs-dist](https://www.npmjs.com/package/pdfjs-dist) for their amazing libraries.

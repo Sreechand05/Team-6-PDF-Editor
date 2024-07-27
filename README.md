@@ -15,14 +15,14 @@ A web application for editing PDF files using React.js. This tool allows users t
 
 1. **Clone the repository:**
 
-   ``` shell
+   ```C++
    git clone https://github.com/Sreechand05/pdf-editor.git
    cd pdf-editor
    ```
 
 2. **Install dependencies:**
 
-   ```
+   ```bash
    npm install --legacy-peer-deps
    ```
 

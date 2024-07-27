@@ -1,8 +1,10 @@
 # Team-6-PDF-Editor
+
 An online PDF editor created by members of Team 6 for IITISoC 2024.
 A web application for editing PDF files using React.js. This tool allows users to merge, split, delete pages, and convert PDFs to various formats.
 
 ## Features
+
 - **Merge PDFs:** Combine multiple PDF files into one.
 - **Split PDF:** Divide a PDF into multiple parts by specifying page ranges.
 - **Delete Pages:** Remove specific pages from a PDF.
@@ -10,24 +12,25 @@ A web application for editing PDF files using React.js. This tool allows users t
 - **Convert to Images:** Convert PDF pages into PNG images.
 
 ## Installation
+
 1. **Clone the repository:**
 
-``` bash
-git clone https://github.com/yourusername/pdf-editor.git
-cd pdf-editor
-```
+   ``` shell
+   git clone https://github.com/Sreechand05/pdf-editor.git
+   cd pdf-editor
+   ```
 
 2. **Install dependencies:**
 
-```bash
-npm install --legacy-peer-deps
-```
+   ```
+   npm install --legacy-peer-deps
+   ```
 
 3. **Start the development server:**
 
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
 
 4. **Access the application:**
 
@@ -43,16 +46,20 @@ npm start
 6. **Convert to Images:** Convert pages to images with "Convert to Images".
 
 ## Error Handling
+
 - Invalid inputs and canceled operations are handled with alerts.
 - Ensure page numbers and ranges are correctly specified to avoid errors.
 
 ## Technologies Used
+
 - **React.js:** Front-end library for building user interfaces.
 - **pdf-lib:** Library for PDF manipulation.
 - **pdfjs-dist:** PDF.js distribution for rendering PDFs.
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Acknowledgments
+
 Thanks to the developers of pdf-lib and pdfjs-dist for their amazing libraries.

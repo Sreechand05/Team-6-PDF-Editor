@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { PDFDocument } from 'pdf-lib';
 import { getDocument } from 'pdfjs-dist';
-//import { Document as DocxDocument, Packer, Paragraph } from 'docx';
 import FileUpload from './FileUpload';
 import PDFViewer from './PDFViewer';
 import './Bootstrap/css/bootstrap.min.css';

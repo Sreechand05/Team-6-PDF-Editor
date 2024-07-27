@@ -1,0 +1,22 @@
+/* PDFViewer.css */
+.view {
+    height: 96%;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the PDF horizontally */
+    align-items: center; /* Center the PDF vertically */
+    box-sizing: border-box;
+  }
+  
+  .view .rpv-core__viewer {
+    max-width: 1000px;
+    max-height: 850px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rpv-core__page-layer .rpv-core__page-layer--single {
+    max-width: 400px;
+    
+  }
+  

@@ -1,0 +1,173 @@
+.dropzone {
+  display: flex;
+  border: 2px dashed #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+  color: #cccccc;
+  width: 70%;
+  height: 300px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.topic {
+  margin: 20px;
+  padding: 10px;
+  width: 20%;
+}
+
+hr {
+  height: 60%;
+  width:1px;
+  position: relative;
+  top: 12%;
+  background-color: black;
+}
+
+span {
+  margin-left: 10px;
+  color:deeppink;
+  position: relative;
+  top: 8px;
+}
+
+button {
+  margin-bottom: 30px;
+  padding: 0;
+  border: 0;
+  color: white;
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  display: inline-flex;
+  align-items:center;
+  justify-content: center;
+  backface-visibility: hidden;
+  border-color: transparent;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position:top;
+  border-radius: 10px;
+}
+
+.button {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgba(230, 244, 190, 0.247);
+}
+
+.pdf-viewer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+h1 {
+  color: rgb(241, 17, 17);
+  cursor:pointer;
+  position: relative;
+  top: 3px;
+}
+
+.navb {
+  display: flex;
+  height:70px;
+  background-color: rgb(236, 218, 13);
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navb .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.navb .logo img {
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navb .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.navb .nav-links li {
+  margin-left: 20px;
+}
+
+.content-container {
+  display: flex;
+  height: calc(100vh - 80px); /* Adjust based on navbar height */
+  top: 70px;
+}
+
+.dropdown {
+  top:15px;
+  right: 10px;
+}
+
+.btn-success {
+  background-color: inherit;
+  border-color: rgb(236, 218, 13);
+  color: black;
+}
+
+.btn.show {
+  background-color:inherit;
+  border-color: rgb(10, 10, 10);
+  color: black;
+}
+
+.btn:hover {
+  background-color: inherit;
+  border-color: inherit;
+  color: black;
+}
+
+.btn:focus {
+  background-color:inherit;
+  color: black;
+}
+
+.dropdown-menu{
+  inset: 0px auto auto 22px !important;
+}
+

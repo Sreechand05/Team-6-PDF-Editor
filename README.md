@@ -9,14 +9,14 @@ A web application for editing PDF files using React.js. This tool allows users t
 - **Split PDF:** Divide a PDF into multiple parts by specifying page ranges.
 - **Delete Pages:** Remove specific pages from a PDF.
 - **Convert to Text:** Extract text content from a PDF.
-- **Convert to Images:** Convert PDF pages into PNG images.
+- **Convert to Images:** Convert PDF pages into JPEG images.
 
 ## Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Sreechand05/pdf-editor.git
+   git clone https://github.com/Sreechand05/Team-6-PDF-Editor.git
    cd pdf-editor
    ```
 

@@ -17,7 +17,7 @@ A web application for editing PDF files using React.js. This tool allows users t
 
    ```bash
    git clone https://github.com/Sreechand05/Team-6-PDF-Editor.git
-   cd pdf-editor
+   cd Team-6-PDF-Editor
    ```
 
 2. **Install dependencies:**
